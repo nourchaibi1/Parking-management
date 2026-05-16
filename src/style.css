@@ -1,0 +1,39 @@
+window {
+    background-color: #1e1e2e;
+}
+
+label {
+    color: #cdd6f4;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Segoe UI", sans-serif;
+}
+
+button {
+    border-radius: 10px;
+    padding: 10px 24px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    transition: all 200ms ease;
+}
+
+/* Connexion button - green */
+#btn_connexion {
+    background: #a6e3a1;
+    color: #1e1e2e;
+}
+
+#btn_connexion:hover {
+    background: #89dceb;
+}
+
+/* Inscription button - blue */
+#btn_inscription {
+    background: #89b4fa;
+    color: #1e1e2e;
+}
+
+#btn_inscription:hover {
+    background: #b4befe;
+}

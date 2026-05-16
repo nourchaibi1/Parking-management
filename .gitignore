@@ -1,0 +1,17 @@
+*.o
+*.lo
+*.la
+*.a
+*.so
+.deps/
+.libs/
+autom4te.cache/
+config.log
+config.status
+stamp-h1
+agents.txt
+parking.txt
+rechpark.txt
+rechresv.txt
+reservation.txt
+res.txt

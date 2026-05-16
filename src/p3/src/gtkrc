@@ -1,0 +1,66 @@
+style "window" {
+  engine ""
+  bg[NORMAL] = "#f5f0e8"
+}
+widget_class "*GtkWindow*" style "window"
+widget_class "*GtkFixed*"  style "window"
+widget_class "*GtkVBox*"   style "window"
+widget_class "*GtkHBox*"   style "window"
+widget_class "*GtkTable*"  style "window"
+widget_class "*GtkFrame*"  style "window"
+
+style "label" {
+  fg[NORMAL] = "#1a3a6e"
+  font_name  = "Sans 11"
+}
+widget_class "*GtkLabel*" style "label"
+
+style "entry" {
+  engine ""
+  bg[NORMAL]   = "#ffffff"
+  base[NORMAL] = "#ffffff"
+  text[NORMAL] = "#1a1a2e"
+  font_name    = "Sans 10"
+}
+widget_class "*GtkEntry*"      style "entry"
+widget_class "*GtkSpinButton*" style "entry"
+
+style "combo" {
+  engine ""
+  bg[NORMAL]   = "#ffffff"
+  base[NORMAL] = "#ffffff"
+  text[NORMAL] = "#1a1a2e"
+}
+widget_class "*GtkComboBox*"   style "combo"
+widget_class "*GtkOptionMenu*" style "combo"
+
+style "button" {
+  engine ""
+  bg[NORMAL]   = "#4a6fa5"
+  bg[PRELIGHT] = "#4a6fa5"
+  bg[ACTIVE]   = "#4a6fa5"
+  fg[NORMAL]   = "#ffffff"
+  font_name    = "Sans Bold 11"
+}
+widget_class "*GtkButton*" style "button"
+
+style "button-label" {
+  fg[NORMAL] = "#ffffff"
+}
+widget_class "*GtkButton*GtkLabel*" style "button-label"
+
+style "notebook" {
+  engine ""
+  bg[NORMAL]   = "#f5f0e8"
+  bg[ACTIVE]   = "#e0d8c8"
+  fg[NORMAL]   = "#1a3a6e"
+  font_name    = "Sans Bold 10"
+}
+widget_class "*GtkNotebook*" style "notebook"
+
+style "radio" {
+  fg[NORMAL] = "#1a3a6e"
+  bg[NORMAL] = "#f5f0e8"
+}
+widget_class "*GtkRadioButton*"    style "radio"
+widget_class "*GtkCheckButton*"    style "radio"
