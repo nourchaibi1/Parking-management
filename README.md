@@ -49,12 +49,19 @@ cd src && ./park
 ## 📁 Project Structure
 final/
 ├── src/
+
 │   ├── main.c          # Main entry point
+
 │   ├── interface.c     # GTK UI definitions
+
 │   ├── callbacks.c     # Button handlers
+
 │   ├── p1/src/         # Parking management
+
 │   ├── p2/src/         # Agent management
+
 │   └── p3/src/         # Reservations
+
 ├── interface.glade     # UI layout
 └── README.md
 
