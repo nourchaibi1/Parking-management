@@ -2,7 +2,7 @@
 
 A desktop parking management system built with **C** and **GTK2**.
 
-## 💪 Why This Project?
+##  Why This Project?
 
 This project was intentionally built with **old, poorly documented technology** (GTK2 + libglade + Autotools) as part of our university curriculum. The goal wasn't just to build a parking system — it was to:
 
@@ -15,21 +15,21 @@ This project was intentionally built with **old, poorly documented technology** 
 > We had to rely on source code, man pages, and pure trial and error.
 > This is closer to real-world legacy code maintenance than most university projects.
 
-## 📋 Features
+##  Features
 
-- 🔐 Main launcher with 3 modules
-- 👤 Agent Management — add, edit, delete, search agents
-- 🅿️ Parking Management — manage spots, floors, availability
-- 📅 Reservation Management — add, modify, search reservations
+-  Main launcher with 3 modules
+-  Agent Management — add, edit, delete, search agents
+-  Parking Management — manage spots, floors, availability
+- Reservation Management — add, modify, search reservations
 
-## 🛠️ Built With
+##  Built With
 
 - **Language:** C
 - **GUI:** GTK2 (libgtk2.0)
 - **Build System:** GNU Autotools
 - **UI Design:** Glade 2.x
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 ```bash
@@ -39,8 +39,8 @@ sudo apt install build-essential libgtk2.0-dev
 
 ### Build & Run
 ```bash
-git clone https://github.com/YOUR_USERNAME/parking-management.git
-cd parking-management
+git clone https://github.com/nourchaibi1/Parking-management.git
+cd Parking-management
 ./configure
 make
 cd src && ./park
@@ -58,10 +58,6 @@ final/
 ├── interface.glade     # UI layout
 └── README.md
 
-## 👨‍💻 Author
+— University Integrated Project 2024
 
-- **Chaibi** — University Integrated Project 2024
 
-## 📄 License
-
-Educational purposes only.
